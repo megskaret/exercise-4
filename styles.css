@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+        --s: 140px; /* control the size */
+        
+        --_g: cornflowerblue 52%,rgb(213,223, 235) /* first color */ 54% 57%,#0000 59%; 
+        background: 
+         radial-gradient(farthest-side at -33.33% 50%,var(--_g)) 0 calc(var(--s)/2),
+         radial-gradient(farthest-side at 50% 133.33%,var(--_g)) calc(var(--s)/2) 0,
+         radial-gradient(farthest-side at 133.33% 50%,var(--_g)),
+         radial-gradient(farthest-side at 50% -33.33%,var(--_g)),
+         cornflowerblue; /* second color */
+        background-size: calc(var(--s)/4.667) var(--s),var(--s) calc(var(--s)/4.667);
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-repeat: repeat;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    background-color: rgb(213, 223, 235);
+    border-radius: 10px;
+    color: cornflowerblue;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin: 0px auto 0px auto;
+    max-width: 750px;
+    padding: 12px 12px 12px 12px;
+    text-decoration: underline;
+    text-decoration-color: rgb(211, 108, 19);
+    font-family: 'Croissant One', cursive;
+}
+
+h2 {
+    background-color: rgb(213, 223, 235);
+    border-radius: 10px;
+    color: rgb(72, 92, 111);
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 12px 12px 12px 12px;
+    max-width: 750px;
+}
+
+h3 {
+    color: cornflowerblue;
+    font-size: 24px;
+    font-weight:bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(211, 108, 19);
+    font-family: 'Croissant One', cursive;
+    text-align: left;
+}
+
+p {
+    color: rgb(72, 92, 111);
+    text-align: left;
+
+}
+
+a {
+    color:rgb(211, 108, 19);
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(211, 108, 19)
+}
+a:active{
+    color:cornflowerblue,
+}
+
+nav {
+    padding: 6px;  
+    margin: 10px 0px 36px 0px;
+    padding-bottom: 8px;
+}
+
+img {
+    width: 100%;
+    width: 500px;
+    border-radius: 36px;
+ }
+
+article {
+    background-color: rgb(213, 223, 235);
+    border: 7px double rgb(211, 108, 19);
+    margin: 12px auto 36px auto;
+    padding: 36px;
+    max-width: 700px;
+    border-radius: 36px;
+}
+
+.button{
+        background-color: rgb(213, 223, 235);
+        width: 100px;
+        padding: 12px 12px 12px 12px;
+        border-radius: 10px;
+}
+
+.button:hover{
+    color: rgb(211, 108, 19)
+}
+
+.footer{
+    color:rgb(72, 92, 111);
+    background-color: rgb(213, 223, 235);
+    width: 100px;
+        padding: 12px 12px 12px 12px;
+        border-radius: 10px; 
+}
